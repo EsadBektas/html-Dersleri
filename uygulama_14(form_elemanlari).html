@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Elemanları</title>
+</head>
+<body>
+    <form name="eleman">
+    <!--label ve tek satırlık metin kutusu ekleme-->
+            Ad:<input type="text"
+    name="isim"/><br/><br/>
+            Soyad:<input type="tetx"
+    name="soyisim"/>
+    <br/><br/>
+        <hr/>
+
+
+    <!--password metin kutusu ekleme-->
+            Kullanıcı: <input type="text"
+    name="kullanici"/><br/><br/>
+            Şifre: <input type="password"
+    name="sifre"/>
+    <br/><br/>
+    <hr/>
+
+
+    <!--onay kutusu ekleme-->
+        <input type="checkbox" name="kutu 1"
+        checked="on"/>HTML<br/><br/>
+        <input type="checkbox"
+     name="kutu 2"/>CSS<br/><br/>
+        <input type="checkbox"
+     name="kutu 3"/>Java Script<br/><br/>
+     <hr/>
+
+
+     <!--tek seçimlih raido button ekleme-->
+        <input type="radio"
+         name="secim"/>EVET<br/><br/>
+        <input type="radio"
+         name="secim"/>EVET<br/><br/>
+         <hr/>
+
+
+    <!--"gözat" dosya bölümü ekleme-->
+    <input type="file"
+    name="Dosya"/>
+    <hr/>
+
+
+    <!--dropdown list(aşağıya doğru açılan tek seçimlik liste)-->
+    <select name="iller" size="10">
+     <option value="plakka41">Kocaeli</option>
+     <option value="plakka06">Ankara</option>
+     <option value="plakka01">Adana</option>
+     <option value="plakka34">İstanbul</option>
+    </select>
+<hr/>
+
+
+<!--listbox (sabit liste birden fazla seçim görünür)-->
+
+<select name="aylar" multiple>
+ <option value="1">Ocak</option>
+ <option value="2">Şubat</option>
+ <option value="3">Mart</option>
+ <option value="4">Nisan</option>
+ <option value="5">Mayıs</option>
+ <option value="6">Haziran</option>
+ </select>
+<hr/>
+
+<!--optgroup (gruplama listesi)-->
+    <select name="riskharitası" multiple size="20">
+      <option selected value="none">Hİçbiri</option>
+
+      <optgroup label="Kırmızı">
+        <option value="k1">Kocaeli</option>
+        <option value="k2">Konya</option>
+        <option value="k3">Balıkesir</option>
+      </optgroup>
+
+      <optgroup label="Sarı">
+        <option value="s1">Eskişehir</option>
+        <option value="s2">Kırşehir</option>
+        <option value="s3">Yozgat</option>
+      </optgroup>
+
+      <optgroup label="Turuncu">
+        <option value="t1">Artvin</option>
+        <option value="t2">Çanakkale</option>
+        <option value="t3">Kütahya</option>
+      </optgroup>
+
+      <optgroup label="Mavi">
+        <option value="m1">Uşak</option>
+        <option value="m2">Batman</option>
+        <option value="m3">Ağrı</option>
+      </optgroup>
+
+    </select>
+
+
+
+    </form>
+</body>
+</html>
